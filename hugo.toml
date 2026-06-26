@@ -12,6 +12,7 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
 ShowPostList = true
+mainSections = ["posts"]
         
 [params.profileMode]
 enabled = true
@@ -26,6 +27,4 @@ url = "posts"
 name = "关于"
 url = "about"
 
-[params]
 
-mainSections = ["posts"]
