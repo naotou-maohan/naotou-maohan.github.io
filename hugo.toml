@@ -12,15 +12,16 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
 
-[params.profileMode]
-enabled = true
-title = "我的博客"
-subtitle = "AI | 编程 | 学习记录"
-
-[[params.profileMode.buttons]]
-name = "文章"
-url = "posts"
-
-[[params.profileMode.buttons]]
-name = "关于"
-url = "about"
+params:
+  profileMode:
+    enabled: true
+    title: "<Hi there>" # optional default will be site title
+    subtitle: "通信 | 电子 | 编程 | 学习记录"
+    buttons:
+      - name: 文章
+        url: "posts"
+      - name: 关于
+        url: "about"
+    socialIcons: # optional
+        - name: "<我的第一条博客>"
+        url: "posts/hello.md"
