@@ -32,3 +32,20 @@ params:
       url: "<link>"
     - name: "<platform 2>"
       url: "<link2>"
+      
+[params.profileMode]
+enabled = true
+title = "Hi there"
+subtitle = "通信 | 电子 | 编程 | 学习记录"
+
+[[params.profileMode.buttons]]
+name = "文章"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "关于"
+url = "about"
+
+[[params.socialIcons]]
+name = "posts/hello.md"
+url = "https://github.com/"
