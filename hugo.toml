@@ -14,7 +14,7 @@ ShowToc = true
 mainSections = ["posts"]
         
 [params.profileMode]
-enabled = true
+enabled = false
 title = "Hi there"
 subtitle = "通信 | 电子 | 编程 | 学习记录"
 
