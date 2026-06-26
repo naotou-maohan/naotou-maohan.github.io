@@ -11,6 +11,7 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
+ShowPostList = true
         
 [params.profileMode]
 enabled = true
@@ -25,6 +26,3 @@ url = "posts"
 name = "关于"
 url = "about"
 
-[[params.socialIcons]]
-name = "我的第一篇文章"
-url = "posts/hello.md"
