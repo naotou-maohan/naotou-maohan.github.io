@@ -12,19 +12,23 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
         
-[params.profileMode]
-enabled = true
-title = "Hi there"
-subtitle = "通信 | 电子 | 编程 | 学习记录"
+params:
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
 
-[[params.profileMode.buttons]]
-name = "文章"
-url = "posts"
-
-[[params.profileMode.buttons]]
-name = "关于我"
-url = "about"
-
-[[params.profileMode.socialIcons]]
-name: "我的第一条博客"
-url: "posts/hello.md"
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
