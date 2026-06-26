@@ -12,18 +12,14 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
 
-        
 [params.homeInfoParams]
-enabled = true
-title = "Hi there"
+Title = "Hi there"
 Content = "通信 | 电子 | 编程 | 学习记录"
 
 [[params.homeInfoParams.buttons]]
 name = "文章"
 url = "posts"
 
-[[params.homeInfoParamse.buttons]]
+[[params.homeInfoParams.buttons]]
 name = "关于"
 url = "about"
-
-
