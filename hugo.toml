@@ -11,17 +11,20 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
+        
+[params.profileMode]
+enabled = true
+title = "Hi there"
+subtitle = "通信 | 电子 | 编程 | 学习记录"
 
-params:
-  profileMode:
-    enabled: true
-    title: "<Hi there>" # optional default will be site title
-    subtitle: "通信 | 电子 | 编程 | 学习记录"
-    buttons:
-      - name: 文章
-        url: "posts"
-      - name: 关于
-        url: "about"
-    socialIcons: # optional
-        - name: "<我的第一条博客>"
-        url: "posts/hello.md"
+[[params.profileMode.buttons]]
+name = "文章"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "关于我"
+url = "about"
+
+[[params.profileMode.socialIcons]]
+name: "我的第一条博客"
+url: "posts/hello.md"
