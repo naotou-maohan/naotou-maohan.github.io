@@ -13,7 +13,7 @@ ShowCodeCopyButtons = true
 ShowToc = true
 ShowPostList = true
         
-[params.homeInfoParams]
+[params.profileMode]
 enabled = true
 title = "Hi there"
 subtitle = "通信 | 电子 | 编程 | 学习记录"
@@ -26,3 +26,6 @@ url = "posts"
 name = "关于"
 url = "about"
 
+[params]
+
+mainSections = ["posts"]
