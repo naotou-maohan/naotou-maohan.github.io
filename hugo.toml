@@ -26,5 +26,5 @@ name = "关于"
 url = "about"
 
 [[params.socialIcons]]
-name = "posts/hello.md"
-url = "https://github.com/"
+name = "我的第一篇文章"
+url = "posts/hello.md"
