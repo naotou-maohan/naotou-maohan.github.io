@@ -1,50 +1,26 @@
 baseURL = "https://naotou-maohan.github.io/"
 languageCode = "zh-cn"
 title = "我的博客"
-
 theme = "PaperMod"
 
 [pagination]
 pagerSize = 10
-
-[params.profileMode]
-enabled = true
-title = "你的名字 / 博客标题"
-subtitle = "一句话介绍你，比如：AI | 编程 | 数据分析 | 写作"
-imageWidth = 120
-imageHeight = 120
-
-[[params.profileMode.buttons]]
-name = "文章"
-url = "posts"
-
-[[params.profileMode.buttons]]
-name = "关于我"
-url = "about"
-
-[menu]
-
-[[menu.main]]
-name = "首页"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "文章"
-url = "/posts/"
-weight = 2
-
-[[menu.main]]
-name = "关于"
-url = "/about/"
-weight = 3
 
 [params]
 ShowReadingTime = true
 ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowToc = true
-ShowBreadCrumbs = true
-ShowPostNavLinks = true
-ShowCodeCopyButtons = true
-ShowReadingTime = true
+
+[params.profileMode]
+enabled = true
+title = "我的博客"
+subtitle = "AI | 编程 | 学习记录"
+
+[[params.profileMode.buttons]]
+name = "文章"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "关于"
+url = "about"
