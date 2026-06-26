@@ -13,16 +13,16 @@ ShowCodeCopyButtons = true
 ShowToc = true
 
         
-[params.profileMode]
+[params.homeInfoParams]
 enabled = true
 title = "Hi there"
 Content = "通信 | 电子 | 编程 | 学习记录"
 
-[[params.profileMode.buttons]]
+[[params.homeInfoParams.buttons]]
 name = "文章"
 url = "posts"
 
-[[params.profileMode.buttons]]
+[[params.homeInfoParamse.buttons]]
 name = "关于"
 url = "about"
 
